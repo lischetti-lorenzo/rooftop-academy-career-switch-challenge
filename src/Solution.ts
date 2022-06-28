@@ -53,7 +53,7 @@ export class Solution {
     return sortedArray;
   }
 
-  private static async checkIfConsecutive(
+  static async checkIfConsecutive(
     firstString: string,
     secondString: string,
     token:string
